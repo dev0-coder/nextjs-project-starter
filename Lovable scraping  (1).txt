@@ -1,0 +1,309 @@
+﻿🔧 PROMPT FOR LOVABLE.APP — “Solar AI Agent — Auto Growth System”
+(Paste whole block into lovable.app build prompt field)
+Project name / Site title:
+ Solar AI Agent — Automated B2B Outreach & Growth System for Solar Installers
+Short description (1 line):
+ A fully automated, zero-investment lead-scraping → multi-channel outreach → AI-calling → CRM-integrated growth engine for solar installation companies.
+Long description / Goal (for site generator):
+ Build a SaaS-style marketing & sales automation website that sells an AI Calling Agent service to solar installation companies. The site must present the product as an enterprise-grade B2B solution that scrapes public solar company leads (zero upfront investment model), automatically contacts prospects via Email / Instagram DM / Facebook Messenger / LinkedIn Message, and triggers the AI Calling Agent to qualify and book meetings. The site must include: marketing pages, pricing & ROI pages, demo scheduler, admin dashboard, customer dashboard, integrations page, legal & GDPR flow, onboarding wizard, and a full technical architecture page for the client. Use content & sales scripts from the attached file for call scripts and sales copy.
+________________
+
+
+🧭 Site Pages & Structure (exact pages to generate)
+1. Home (Hero, Value props, CTA)
+2. Product — How It Works (visual flow + 6-step automation diagram)
+3. Features (detailed modules)
+4. Pricing & ROI Calculator (interactive)
+5. Demo & Free Trial (Calendly integration)
+6. Case Studies & Testimonials
+7. Integrations (CRM, Twilio/VapiAI, Meta, LinkedIn, Email providers)
+8. Dashboard Preview (Admin & Client view screenshots / interactive mock)
+9. Security & Compliance (GDPR/CCPA, data retention, encryption)
+10. Blog / Resources (templates, scripts)
+11. Contact / Sales (lead gen form)
+12. Legal (Privacy Policy, Terms, Cookies)
+13. Onboarding Wizard (for new customers)
+14. Developer / API Docs (keys, webhooks, sample JSON)
+________________
+
+
+🧩 Home Page — exact content & elements
+Hero:
+* Headline (H1): “Aap panel lagao — Calls hum karenge.”
+* Sub-headline: “Zero upfront investment — automated scraping, multi-channel outreach aur AI calling — solar leads ko convert karo efficiently.”
+* CTA Primary Button (big, above-the-fold): Book Free Demo (7-day Trial) → opens Demo modal / Calendly.
+* CTA Secondary: See ROI Calculator → scrolls to pricing section.
+Hero microcopy under CTA:
+ “Daily 800+ targeted calls • LinkedIn, Email, FB & Insta automation • CRM sync”
+Hero visual: Animated 6-step flow: Scrape → Enrich → Multi-Channel Outreach → AI Call → Qualified Leads → Booked Meetings.
+Trust bar (logos): “Trusted by solar leaders” (placeholder logos + “Pilot case: 30% sales uplift”)
+________________
+
+
+📚 Product — "How It Works" (6-step with buttons & details)
+Create a horizontally scrollable section with six cards. Each card must include: icon, title, 2-line description, primary action button, and small “how it works” expandable details.
+1. Step 1 — Scrape (0 Investment Model)
+
+   * Title: Auto-Scrape Targets
+   * Description: “System public sources se targeted solar prospects scrape karega (company, contact, role, city).”
+   * Button: Scrape Sample Now → runs demo scrape (shows sample results).
+   * Expandable details: schedule, frequency, query templates (example: site:linkedin.com "Solar Installer" "India" OR "USA", domain filters), max concurrency, dedupe rules, politeness & robots.txt respect, rate limits, and opt-out handling.
+   2. Step 2 — Enrich & Score
+
+      * Title: Enrich & Score
+      * Description: “Email, phone, social handles enrich, and lead scoring (intent, size, proximity).”
+      * Button: View Scoring Rules
+      * Details: enrichment sources (Clearbit/SignalHire-like), fallback email pattern guesses, confidence scores, and manual override.
+      3. Step 3 — Multi-Channel Outreach
+
+         * Title: Auto Outreach: Email / IG / FB / LinkedIn
+         * Description: “Automated messages across channels with personalization tokens & delay strategies.”
+         * Button: See Message Templates
+         * Details: channel cadence, spam-safe templates, personalization tokens, sending quotas, A/B test variants, and message cooldown rules.
+         4. Step 4 — AI Calling Agent
+
+            * Title: AI Calling Agent
+            * Description: “Real-time voice AI that qualifies, handles objections & books meetings.”
+            * Button: Hear a Demo Call → plays recorded sample (use script excerpts).
+            * Details: fallback to human agent, dynamic script branches, live monitoring, call recording policy, CRM push.
+            5. Use sample scripts from uploaded file for voice script templates.
+
+            6. Step 5 — Auto Follow-up & Scheduler
+
+               * Title: Auto Follow-up & Schedule
+               * Description: “If prospect shows interest, system schedules demo via Calendly/Integrated calendar.”
+               * Button: Configure Calendly
+               * Details: timezones, double-book protection, follow-up SMS/email, confirmation & reminder flows.
+               7. Step 6 — Analytics & ROI
+
+                  * Title: Realtime Dashboard & ROI
+                  * Description: “Calls, conversions, CPL, predicted revenue — all in one dashboard.”
+                  * Button: Open Demo Dashboard
+                  * Details: KPIs, funnel visualization, export CSV, weekly automated client reports.
+________________
+
+
+⚙️ Feature Page — full list (each with microcopy + action button)
+For each feature below include a 50–80 word explanation + admin control button + micro-interaction tooltip.
+                  1. Lead Scraper — Run Scrape / Edit Queries
+                  2. Enrichment Engine — Run Enrich
+                  3. Duplicate Detection — Review Duplicates
+                  4. Lead Scoring Rules — Edit Scoring
+                  5. Channel Orchestrator — Edit Cadence
+                  6. Email Composer (templates & dynamic tokens) — Edit Templates
+                  7. Social DM Composer (IG/FB/LinkedIn) — Edit Social Templates
+                  8. AI Calling Engine — Script Editor (WYSIWYG + raw text + variables) — must import scripts from file.
+                  9. Call Monitoring & Override — Live Listen
+                  10. CRM Integration — Connect CRM (HubSpot/Zoho/Salesforce)
+                  11. API & Webhooks — Developer Keys
+                  12. Reports & Scheduler — Schedule Weekly Report
+                  13. User Roles & Permissions — Manage Team
+                  14. Data Export — Export CSV
+                  15. Security Settings (encryption, retention) — Security Center
+________________
+
+
+🧾 Pricing Page & ROI Calculator (exact UI)
+Pricing tiers: (show in a 3-column card layout)
+                  * Pilot — 7-day free trial (limited to 1k contacts, 100 calls) — CTA: Start Free Trial
+                  * Growth — $5,000 / month — includes 800 calls/day, full automation, 1 integration — CTA: Get Growth Plan
+                  * Enterprise — Custom pricing — includes dedicated setup, SLA, white-glove onboarding — CTA: Contact Sales
+ROI Calculator UI: inputs (avg order value, close rate before, expected close rate after, number of calls/day) → outputs (expected monthly revenue uplift, payback period, CPA). Button: Calculate & Generate PDF (downloadable report).
+________________
+
+
+📩 Demo / Trial Flow (exact steps & copy)
+                  1. Demo CTA opens modal: Book a 15-min Live Demo — fields: Company Name, Contact Name, Role, Email, Phone, Timezone. Button: Schedule Demo
+                  2. On submit: autoresponder email (instant) — Subject: Thanks — Your Solar AI Demo is scheduled — body includes demo link, short explainer, pre-demo checklist. (Template below)
+                  3. System triggers: create lead in CRM, enqueue sample scrape for that company's region, pre-fill demo with customized data.
+                  4. After demo: send 7-day Pilot onboarding email + guide + access link (trial config).
+Autoresponder email template (exact):
+                  * Subject: Demo Confirmed — Solar AI Agent
+                  * Body: Hi {{FirstName}}, thanks — demo scheduled at {{Time}}. Aap demo ke liye ready ho? Hum 10-minute me system se kuch real leads fetch karke dikhayenge. Demo link: {{link}}
+                  * CTA button: Join Demo
+________________
+
+
+🤖 AI Calling Agent — Script & Behaviour (technical)
+                  * Provide a Script Editor that supports: conditional branches, variable tokens ({{Company}}, {{Contact}}, {{State}}, {{InterestScore}}), fallback messages, sentiment-based tone adjustments, and live-human takeover.
+                  * Include Prebuilt script templates from uploaded file (Hindi + English variants) and a toggle Use Hinglish Mode.
+                  * Buttons in Script Editor: Test Call, Publish Script, Rollback Version, Export Script (txt).
+Call flow rules (define):
+                  * If lead answers → run qualification branch (budget, readiness, timeline).
+                  * If “interested” → auto schedule demo + send confirmation email.
+                  * If “not interested” → set lead status Not Interested, re-touch in 90 days.
+                  * If call dropped / no answer → retry schedule: 3 attempts within 7 days at different times.
+                  * All calls recorded, transcripts stored for 30 days (configurable).
+________________
+
+
+📬 Multi-Channel Message Templates (exact content — use tokens)
+Provide templates for Email, LinkedIn Message, Facebook/Instagram DM, Whatsapp (optional). Each template must include tokens.
+Email (Initial):
+ Subject: {{Company}} — 2 mins: AI se solar leads kaise badhenge
+ Body (Hinglish):
+Hi {{FirstName}}, Main {{YourName}} Solar AI Agent se. Hum ek AI calling system chalate hain jo aapke liye 800+ quality calls daily karke sales-ready leads laaye. Agar aap 15 min de to main aapko proof dikhata hoon — demo link: {{demoLink}}. Thanks, {{YourName}}
+ Button: Book 15-min Demo
+LinkedIn (Connect + Message):
+                  * Connect note: Hi {{FirstName}}, main Solar AI Agent se hu — ek short demo share karna chahunga. Accept karoge?
+                  * After connect: Thank you! Humari AI calling tech aapke region me panels sell karna bahut easy kar degi. Demo? {{demoLink}}
+Instagram / Facebook DM: short Hinglish message with demo CTA.
+________________
+
+
+🔁 Automation Rules & Schedules (Admin UI spec)
+                  * Scrape Scheduler: set timezone, region, frequency (daily/weekly), concurrency. Button: Start/Stop Scraper.
+                  * Outreach Cadence: create sequence with delays by channel (e.g., Day 0 Email → Day 2 LinkedIn → Day 4 AI Call). Button: Activate Sequence.
+                  * Lead Filters: boolean builder (e.g., country == India && revenue > $500k && role contains "Owner"). Button: Save Filter.
+                  * Retry Rules: set max retries per channel, cool-down, and suppression lists.
+                  * Opt-out & Compliance: automatically append unsubscribe link, record opt-out in suppression list across channels.
+________________
+
+
+🧑‍💼 Admin & Team Roles (exact roles & permissions)
+                  * Super Admin — full access (billing, integr, security).
+                  * Sales Admin — manage sequences, view reports.
+                  * Ops — manage scraper & enrichment.
+                  * Viewer — read-only for client.
+                  * Integration User — only API keys & webhooks.
+Buttons: Invite User, Change Role, Deactivate.
+________________
+
+
+🔐 Privacy, Legal & Compliance copy (mandatory)
+                  * Short compliance banner: “We respect privacy. All scraping respects robots.txt and public data only. We follow GDPR/CCPA for storage & consent.”
+                  * Cookie consent widget text.
+                  * Data retention default 90 days (configurable). Button: Change Retention.
+                  * Consent capture flows for messages & call recording: I consent to recorded calls checkbox during demo signup.
+________________
+
+
+📈 Dashboard & Reports (exact widgets + buttons)
+Admin dashboard widgets:
+                  * Today: Calls Made / Connected / Leads
+                  * Conversion Rate (7-day avg)
+                  * Top Channels by ROI
+                  * Open Tasks / Follow-ups
+                  * Scheduled Demos
+                  * Monthly Revenue Projection
+Buttons: Export CSV, Email Report, Schedule Weekly Report.
+Report email template (weekly): subject Weekly Performance — Solar AI Agent with summary: calls, connects, qualified leads, booked demos, predicted revenue.
+________________
+
+
+🔗 Integrations (include config UI & sample endpoints)
+                  * CRM: HubSpot / Zoho / Salesforce — OAuth / API key. Button: Connect CRM.
+                  * Calendar: Google Calendar / Office365 — Connect Calendar.
+                  * Voice AI: Vapi AI or Twilio + custom speech model — Connect Voice Provider.
+                  * Email Providers: Sendgrid / Mailgun / SMTP — Connect Email.
+                  * Social APIs: Meta Graph API (FB/IG), LinkedIn API — Connect Social.
+                  * Enrichment: Clearbit-like / Email verifier API — Connect Enrichment.
+                  * Webhooks: Add Webhook (support JSON payload, HMAC signing).
+Provide sample webhook payload for lead.created (include fields, tokens).
+________________
+
+
+🧰 Developer / API Docs (required endpoints)
+Include these endpoints (method, path, brief description, sample request/response):
+                  * POST /api/v1/scrape — start scrape (body: query, region)
+                  * GET /api/v1/leads — list leads (filters querystring)
+                  * POST /api/v1/outreach/sequence — trigger sequence
+                  * POST /api/v1/call — trigger AI call (leadId, scriptId)
+                  * GET /api/v1/reports/roi — returns ROI metrics
+Buttons in developer docs: Generate Key, Revoke Key, Test Endpoint.
+________________
+
+
+🔁 Onboarding Wizard (step-by-step UI & microcopy)
+                  1. Company info → Save & Continue
+                  2. Connect CRM → Connect Now / Skip
+                  3. Configure Scrape (region, filters) → Run Sample Scrape
+                  4. Choose Outreach Sequence → Select Template
+                  5. Upload / Edit Call Script (import from uploaded file) → Import Script (pre-populate with sample)
+                  6. Connect Calendar & Voice Provider → Connect & Test
+                  7. Activate Pilot → Start 7-day Pilot
+After step complete show progress bar and Go to Dashboard button.
+________________
+
+
+🧪 Testing & Fail-safes (must include)
+                  * Sandbox test mode toggle (no real messages/calls). Button: Enable Sandbox.
+                  * Rate-limit protection & safe hours (no calls between 10pm-6am local). Button: Edit Safe Hours.
+                  * Human fallback button on each active campaign row: Take Over (pauses AI and routes to human rep).
+                  * Audit logs widget with View Logs button.
+________________
+
+
+📦 Marketing Copy — full-page ready (Hinglish + English)
+Provide full marketing paragraphs for home, features, pricing, and CTA microcopy. (Use short paragraphs & bullets; include testimonial snippets). Use the sales script language and claims from uploaded file for hero/CTA.
+________________
+
+
+🧾 Example Templates to Include (exact sample texts)
+Include the email and LinkedIn templates above, voicemail script, and sample closing lines from uploaded file. Make them editable in CMS.
+________________
+
+
+✅ Admin Buttons & Micro-interactions (explicit list)
+Provide a line-by-line list of every button label used on the site and its exact action — this helps lovable.app generate UI mapping.
+Example (give exhaustive list):
+                  * Book Free Demo → open Demo Modal (prefill UTM)
+                  * See ROI Calculator → scroll to ROI block
+                  * Start Free Trial → sign-up flow (trial role)
+                  * Connect CRM → open OAuth modal
+                  * Test Call → run simulated call in sandbox
+                  * Publish Script → push script to production calls
+                  * Start/Stop Scraper → toggles scraper job
+                  * Export CSV → prompts CSV download
+                  * Invite User → opens invite modal
+                  * Enable Sandbox → toggle sandbox environment
+(Please include these exact labels in the site so UI is consistent.)
+________________
+
+
+🛡️ Security & Ops — technical requirements
+                  * TLS for site & APIs.
+                  * Database encryption at rest.
+                  * HMAC signing for webhooks.
+                  * RBAC for roles.
+                  * Audit & retention policy.
+                  * GDPR consent capture & delete data flow: Request Data Deletion button in account settings.
+________________
+
+
+📂 Deliverable formats & extras to generate
+When lovable.app builds the site, generate the following outputs:
+                  1. Full website (HTML/CSS/JS) + admin panel.
+                  2. A site-setup.txt file that contains all the microcopy, templates, message examples, script text (import from attached file), API endpoints, and button mapping in plain text.
+                  3. api-keys-sample.json — sample environment file (no real keys).
+                  4. onboarding-checklist.pdf — downloadable for clients.
+                  5. Demo content: 10 fake leads CSV (sandbox) for demo.
+Important: In site-setup.txt include the sales scripts and objection handling from the uploaded file for the AI calling agent.
+________________
+
+
+⚠️ Compliance & Ethical note (to include on site & admin)
+Text to show in legal / help:
+“System scrapes only publicly available data and respects website robots.txt. All outreach follows platform policies. We require explicit consent for recorded calls. Use responsibly and follow local regulations.”
+________________
+
+
+✅ Final instructions to lovable.app (rendering & styling)
+                  * Use a modern clean B2B SaaS template, corporate yet warm (greens + charcoal).
+                  * Use Tailwind-like utility classes.
+                  * Provide a responsive design (desktop & mobile).
+                  * Use micro-animations for flow diagrams.
+                  * Create interactive ROI calculator and sample dashboard demo.
+                  * Export final site as downloadable package and also host a demo subdomain.
+________________
+
+
+📥 Extra: Paste-ready site-setup.txt header (first lines for the text file)
+SITE: Solar AI Agent — Automated B2B Outreach & Growth System
+COPYRIGHT: Solar AI Agent © {YEAR}
+CONTACT: hello@solar-ai-agent.lovable.app
+INCLUDED: sales_scripts.txt, templates_email.txt, templates_social.txt, api-endpoints.txt, onboarding-checklist.pdf
+NOTE: Import Sales Scripts from uploaded SCRIPT Of Solar AI Agent .pdf for AI agent voice scripts. (See file reference.)
+
+
+________________
